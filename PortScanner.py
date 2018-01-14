@@ -2,7 +2,7 @@ from socket import *
 
 if __name__ == '__main__':
     print("PORT SCANNER V 1.0 (simple port scanner)")
-    target = input('Enter host to scan: ')
+    target = input('Host to scan: ')
     targetIP = gethostbyname(target)
     print ('Starting scan on host ', targetIP)
 
